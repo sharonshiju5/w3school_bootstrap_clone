@@ -1,0 +1,512 @@
+body{
+    margin: 0;
+}
+
+.nav{
+    background-color: bisque;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+}
+.logo{
+    width:90px;
+    height: 60px;
+    /* background-color: blue; */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 28px;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(183, 127, 43);
+    
+}
+.logo1{
+    height: 50px;
+    
+}
+
+.logo2{
+    height: 12px;
+    color: aliceblue;
+    margin-right: px;
+    word-spacing: 30px;
+    /* position: fixed; */
+    
+}
+.nav{
+    background-color: #1d2a35;
+    width: 100%;
+    height: 60px;
+    display: flex;
+}
+.tutorial{
+    height: 40px;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    width: 120px;
+    align-items: center;
+    padding-top: 20px;
+    justify-content: center;
+    font-size:16px ;
+    font-weight: 600;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.tutorial:hover{
+    height: 40px;
+    position: absolute;
+    background-color: #04AA6D;
+    width: 120px;
+    align-items: center;
+    padding-top: 20px;
+    justify-content: center;
+    font-size:16px ;
+    font-weight: 600;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navtext2{
+    color: rgb(255, 255, 255);
+    height: 40px;
+    position: absolute;
+    left: 210px;
+    width: 120px;
+    padding-top: 20px; 
+    font-size:16px ;
+    font-weight: 600;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navtext2:hover{
+    height: 40px;
+    background-color: #04AA6D;
+    position: absolute;
+    left: 210px;
+    width: 120px;
+    padding-top: 20px; 
+    font-size:16px ;
+    font-weight: 600;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navtext3{
+    height: 40px;
+    position: absolute;
+    left: 330px;
+    color: rgb(255, 255, 255);
+    width: 120px;
+    padding-top: 20px; 
+    font-size:16px ;
+    font-weight: 600;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navtext3:hover{
+    height: 40px;
+    position: absolute;
+    left: 330px;
+    background-color: #04AA6D;
+    width: 120px;
+    padding-top: 20px; 
+    font-size:16px ;
+    font-weight: 600;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navtext4{
+    height: 40px;
+    position: absolute;
+    left: 440px;
+    color: rgb(255, 255, 255);
+    width: 120px;
+    padding-top: 20px; 
+    font-size:16px ;
+    font-weight: 600;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navtext4:hover{
+    height: 40px;
+    position: absolute;
+    left: 440px;
+    background-color: #04AA6D;
+    
+    width: 120px;
+    padding-top: 20px; 
+    font-size:16px ;
+    font-weight: 600;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.div1{
+    height: 40px;
+    position: absolute;
+    left: 560px;
+   
+    width: 210px;
+   padding-top: 20px; 
+    font-size:16px ;
+    font-weight: 600;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+}
+.imgdiv{
+    height: 40px;
+    position: absolute;
+    top: 0px;
+    left: 160px;
+   
+    width: 60px;
+   padding-top: 20px; 
+   padding-left: ;
+    font-size:16px ;
+    font-weight: 600;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+}
+
+
+.imgdiv:hover{
+    background-color: #f1f2f6;
+    height: 30px;
+    position: absolute;
+    top: 10px;
+    left: 160px;
+   border-radius: 80px;
+    width: 50px;
+   padding-top: 10px; 
+   padding-left: ;
+    font-size:16px ;
+    font-weight: 600;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+}
+
+
+.dark{
+    height: 40px;
+    position: absolute;
+    left: 770px;
+    
+    width: 70px;
+    padding-top: 20px; 
+}
+.dark:hover{
+    border-radius: 30px;
+    height: 40px;
+    position: absolute;
+    left: 770px;
+    background-color:#636779;
+    width: 70px;
+    padding-top: 20px; 
+}
+.darkimg{
+    height: 18px;
+    padding-left: 20px;
+}
+.div3{
+    height: 40px;
+    position: absolute;
+    top: 10px;
+    left: 900px;
+    
+    width: 130px;
+    padding-top: 0px; 
+    display: flex;
+    padding-left: 60px;
+    border-radius:50px ;
+    align-items: center;
+    
+
+}
+.div3:hover{
+    height: 40px;
+    position: absolute;
+    top: 10px;
+    left: 900px;
+    background-color:#636779;
+    width: 130px;
+    padding-top: 0px; 
+    display: flex;
+    padding-left: 60px;
+    border-radius:50px ;
+    align-items: center;
+    
+
+}
+.capimg{
+    height: 15px;
+    position: relative;
+    left: -20px;
+    z-index: 1;
+    left: -120px;
+    top: 0px;
+}
+.div4{
+    height: 40px;
+    position: absolute;
+    top: 10px;
+    left: 1100px;
+    
+    width: 60px;
+    padding-top: 0px; 
+    display: flex;
+    padding-left: 40px;
+    border-radius:50px ;
+    align-items: center;
+}
+.div4:hover{
+    height: 40px;
+    position: absolute;
+    top: 10px;
+    left: 1100px;
+    background-color:#636779;
+    width: 60px;
+    padding-top: 0px; 
+    display: flex;
+    padding-left: 40px;
+    border-radius:50px ;
+    align-items: center;
+}
+.starimg{
+    height: 40px;
+    position: relative;
+    
+    z-index: 1;
+    left: 0px;
+    top: 0px;
+}
+.div5{
+    height: 40px;
+    position: absolute;
+    top: 10px;
+    left: 1210px;
+    width: 60px;
+    padding-top: 0px; 
+    display: flex;
+    padding-left: 40px;
+    border-radius:50px ;
+    align-items: center;
+}
+.div5:hover{
+    height: 40px;
+    position: absolute;
+    top: 10px;
+    left: 1210px;
+    background-color: #636779;
+    width: 60px;
+    padding-top: 0px; 
+    display: flex;
+    padding-left: 40px;
+    border-radius:50px ;
+    align-items: center;
+}
+.tagimg{
+    height: 15px;
+    position: relative;
+    
+    z-index: 1;
+    left: -75px;
+    top: 0px;
+}
+.div6{
+    height: 40px;
+    position: absolute;
+    top: 10px;
+    left: 1325px;
+    width: 130px;
+    padding-top: 0px; 
+    display: flex;
+    padding-left: 40px;
+    border-radius:50px ;
+    align-items: center;  
+}
+.div6:hover{
+    height: 40px;
+    position: absolute;
+    top: 10px;
+    left: 1325px;
+    background-color: #636779;
+    width: 130px;
+    padding-top: 0px; 
+    display: flex;
+    padding-left: 40px;
+    border-radius:50px ;
+    align-items: center;  
+}
+.shopimg{
+    height: 18px;
+    position: relative;
+    
+    z-index: 1;
+    left: -110px;
+    top: 0px;
+}
+.div7{
+    height: 50px;
+    position: absolute;
+    top: 5px;
+    left: 1515px;
+    width: 80px;
+    padding-top: 0px; 
+    background-color: #04AA6D;
+    display: flex;
+    padding-left: 20px;
+    border-radius:50px ;
+    align-items: center;
+    z-index: 1;
+}
+.div7:hover{
+    height: 50px;
+    position: absolute;
+    top: 5px;
+    left: 1515px;
+    background-color: #038455;
+    width: 80px;
+    padding-top: 0px; 
+    display: flex;
+    padding-left: 20px;
+    border-radius:50px ;
+    align-items: center;
+    z-index: 1;
+}
+.login{
+    height: 50px;
+    position: absolute;
+    top: 5px;
+    left: 1565px;
+    background-color:#ffffff;
+    width: 60px;
+    padding-top: 0px; 
+    display: flex;
+    padding-left: 60px;
+    border-radius:50px ;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.login:hover{
+    height: 50px;
+    position: absolute;
+    top: 5px;
+    left: 1565px;
+    background-color:#04aa6dc9;
+    width: 60px;
+    padding-top: 0px; 
+    display: flex;
+    padding-left: 60px;
+    border-radius:50px ;
+    align-items: center;
+    
+}
+
+
+p{
+    font-weight: 400px;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    z-index: 1;
+    
+}
+.nav2{
+    display: grid;
+    grid-template-areas: "logo search serveces";
+    background-color:bisque;
+    height: 30px;
+    align-items: center;
+    
+    padding-top: 70px;
+    
+}
+
+.serveces{
+    font-size: 15p;
+    display: grid;
+    grid-template-areas: "html css javascript sql python java php how c";
+    margin-top: 0px;
+    position: relative;
+    top: -10px;
+}
+.html{
+    grid-area: html;
+    color: rgb(12, 85, 176);
+    background-color: #04AA6D;
+    height: 30px;
+    padding-top: 10px;
+}
+.html:hover{
+    background-color: #6d897e;
+}
+.css{
+    grid-area: css;
+    color: rgb(12, 85, 176) ;
+    background-color: #04AA6D;
+    height: 30px;
+    padding-top: 10px;
+}
+.javascript{
+    grid-area: javascript;
+    color: rgb(12, 85, 176);
+    background-color: #04AA6D;
+    height: 30px;
+    padding-top: 10px;
+}
+.sql{
+    grid-area: sql;
+    color: rgb(12, 85, 176);
+    background-color: #04AA6D;
+    height: 30px;
+    padding-top: 10px;
+}
+.python{
+    grid-area: python;
+    color: rgb(12, 85, 176) ;
+    background-color: #04AA6D;
+    height: 30px;
+    padding-top: 10px;
+}
+.java{
+    grid-area: java;
+    color: rgb(12, 85, 176) ;
+    background-color: #04AA6D;
+    height: 30px;
+    padding-top: 10px;
+}
+
+
+
+
+
+.search{
+border: 1px solid bisque;
+border-radius: 50px;
+/* background-color: beige; */
+width: 0px;
+margin-top: 0px;
+position: relative;
+left: px;
+bottom: 10px;
+height: 35px;
+
+width: 200px;
+font-size: 18px;
+font-style: italic;
+
+}
+.searchimg{
+   height: 20px;
+   position: absolute;
+   left: 20px;
+   
+}
+
+/* .dark{
+
+}
+.darkimg{
+    height:25px ;
+    margin-left: 30px;
+    margin-top: -5px;
+} */
+
