@@ -39,6 +39,8 @@ body{
     width: 100%;
     height: 60px;
     display: flex;
+    z-index: 100000;
+    cursor: pointer;
 }
 .tutorial{
     height: 40px;
@@ -274,7 +276,7 @@ body{
     position: relative;
     
     z-index: 1;
-    left: 0px;
+    left: -40px;
     top: 0px;
 }
 .div5{
@@ -412,68 +414,335 @@ p{
 .nav2{
     display: grid;
     grid-template-areas: "logo search serveces";
-    background-color:bisque;
+    background-color: #1d2a35df;
     height: 30px;
     align-items: center;
-    
+    overflow-x: scroll;
+    overflow-y: hidden;
     padding-top: 70px;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;
+    cursor: pointer;
+    padding-left: -80px;
+    margin-left: -90px;
     
 }
 
 .serveces{
     font-size: 15p;
     display: grid;
-    grid-template-areas: "html css javascript sql python java php how c";
+    grid-template-areas: "html css javascript sql python java php how w3 c c2 c3 bootstrap react mysql jquery excel xml django numpy";
     margin-top: 0px;
     position: relative;
+    top: -5px;
+    overflow-x:scroll;
+    overflow-y:hidden;
+    width: 2000px;
+    scrollbar-width: none;
+    /* position: fixed; */
     top: -10px;
+    background-color:#293238;
+    z-index: 10000;
+    padding-left: -80px;
+}
+.serveces div{
+    font-size: 16px;
+    color: #e0e1e7;
+    font-weight: 450;
+    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .html{
     grid-area: html;
-    color: rgb(12, 85, 176);
-    background-color: #04AA6D;
+    color: rgb(255, 255, 255);
+    
     height: 30px;
     padding-top: 10px;
+    padding-left: 20px;
+    
 }
 .html:hover{
-    background-color: #6d897e;
+    background-color: #04AA6D;
 }
 .css{
     grid-area: css;
-    color: rgb(12, 85, 176) ;
+    color: white;
+    height: 30px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.css:hover{
+    grid-area: css;
     background-color: #04AA6D;
     height: 30px;
     padding-top: 10px;
 }
 .javascript{
     grid-area: javascript;
-    color: rgb(12, 85, 176);
+    color: #ffffff;
+    height: 30px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.javascript:hover{
+    grid-area: javascript;
     background-color: #04AA6D;
     height: 30px;
     padding-top: 10px;
 }
 .sql{
     grid-area: sql;
-    color: rgb(12, 85, 176);
+    color: rgb(255, 255, 255);
+    
+    height: 30px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.sql:hover{
+    grid-area: sql;
     background-color: #04AA6D;
     height: 30px;
     padding-top: 10px;
 }
 .python{
     grid-area: python;
-    color: rgb(12, 85, 176) ;
+    color: rgb(251, 253, 255) ;
+
+    height: 30px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.python:hover{
+    grid-area: python;
+    color: rgb(250, 252, 255) ;
     background-color: #04AA6D;
     height: 30px;
     padding-top: 10px;
 }
 .java{
     grid-area: java;
+    color: rgb(255, 255, 255) ;
+ 
+    height: 30px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.java:hover{
+    grid-area: java;
     color: rgb(12, 85, 176) ;
     background-color: #04AA6D;
     height: 30px;
     padding-top: 10px;
 }
+.c{
+    grid-area:c;
+    color: rgb(255, 255, 255) ;
+    
+    height: 30px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.php{
+    grid-area: php;
+    padding-left: 20px;
+    height: 30px;
+    padding-top: 10px;
+    color: white;
+    
+}
+.how{
+    grid-area: how;
+    padding-left: 20px;
+    height: 30px;
+    padding-top: 10px;
+    color: white;
+}
+.c:hover{
+    grid-area:c;
+    color: rgb(12, 85, 176) ;
+    background-color: #04AA6D;
+    height: 30px;
+    padding-top: 10px;
+}
+.php:hover{
+    grid-area: php;
+    height: 30px;
+    padding-top: 10px;
+    background-color: #04AA6D;
+}
+.how:hover{
+    grid-area: how;
+    height: 30px;
+    padding-top: 10px;
+    background-color: #04AA6D;
+}
 
+
+.w3{
+    grid-area: w3;
+    padding-left: 20px;
+    height: 30px;
+    padding-top: 10px;
+    color: white;
+}
+.c2{
+    grid-area: c2;
+    padding-left: 20px;
+    color: rgb(244, 246, 248) ;
+    
+    height: 30px;
+    padding-top: 10px;
+}
+.c3{
+    grid-area: c3;
+    padding-left: 20px;
+    color: rgb(245, 247, 249) ;
+    
+    height: 30px;
+    padding-top: 10px;
+}
+.bootstrap{
+    grid-area: bootstrap;
+    padding-left: 20px;
+    color: rgb(255, 255, 255) ;
+    
+    height: 30px;
+    padding-top: 10px;
+}
+.react{
+    grid-area: react;
+    padding-left: 20px;
+    color: rgb(255, 255, 255) ;
+   
+    height: 30px;
+    padding-top: 10px;
+}
+.mysql{
+    grid-area: mysql;
+    padding-left: 20px;
+    color: rgb(255, 255, 255) ;
+
+    height: 30px;
+    padding-top: 10px;
+}
+.jquery{
+    grid-area: jquery;
+    padding-left: 20px;
+    color: rgb(255, 255, 255) ;
+    height: 30px;
+    padding-top: 10px;
+}
+.excel{
+    grid-area: excel;
+    padding-left: 20px;
+    color: rgb(255, 255, 255) ;
+
+    height: 30px;
+    padding-top: 10px;
+}
+.xml{
+    grid-area: xml;
+    padding-left: 20px;
+    color: rgb(255, 255, 255) ;
+    height: 30px;
+    padding-top: 10px;
+}
+.django{
+    padding-left: 20px;
+    grid-area: django;
+    color: rgb(255, 255, 255) ;
+   
+    height: 30px;
+    padding-top: 10px;
+}
+.numpy{
+    grid-area: numpy;
+    padding-left: 20px;
+
+    height: 30px;
+    padding-top: 10px;
+}
+
+
+
+
+
+
+.w3:hover{
+    grid-area: w3;
+    height: 30px;
+    padding-top: 10px;
+    color: rgb(255, 255, 255) ;
+    background-color: #04AA6D;}
+.c2:hover{
+    grid-area: c2;
+    color: rgb(255, 255, 255) ;
+    background-color: #04AA6D;
+    height: 30px;
+    padding-top: 10px;
+}
+.c3:hover{
+    grid-area: c3;
+    color: rgb(255, 255, 255) ;
+    background-color: #04AA6D;
+    height: 30px;
+    padding-top: 10px;
+}
+.bootstrap:hover{
+    grid-area: bootstrap;
+    color: rgb(255, 255, 255) ;
+    background-color: #04AA6D;
+    height: 30px;
+    padding-top: 10px;
+}
+.react:hover{
+    grid-area: react;
+    color: rgb(255, 255, 255) ;
+    background-color: #04AA6D;
+    height: 30px;
+    padding-top: 10px;
+}
+.mysql:hover{
+    grid-area: mysql;
+    color: rgb(255, 255, 255) ;
+    background-color: #04AA6D;
+    height: 30px;
+    padding-top: 10px;
+}
+.jquery:hover{
+    grid-area: jquery;
+    color: rgb(255, 255, 255) ;
+    background-color: #04AA6D;
+    height: 30px;
+    padding-top: 10px;
+}
+.excel:hover{
+    grid-area: excel;
+    color: rgb(255, 255, 255) ;
+    background-color: #04AA6D;
+    height: 30px;
+    padding-top: 10px;
+}
+.xml:hover{
+    grid-area: xml;
+    color: rgb(255, 255, 255) ;
+    background-color: #04AA6D;
+    height: 30px;
+    padding-top: 10px;
+}
+.django:hover{
+    grid-area: django;
+    color: rgb(255, 255, 255) ;
+    background-color: #04AA6D;
+    height: 30px;
+    padding-top: 10px;
+}
+.numpy:hover{
+    grid-area: numpy;
+    color: rgb(255, 255, 255) ;
+    background-color: #04AA6D;
+    height: 30px;
+    padding-top: 10px;
+}
 
 
 
@@ -510,3 +779,150 @@ font-style: italic;
     margin-top: -5px;
 } */
 
+
+
+
+.main{
+    height: 1090px;
+    width: 100%;
+    background-color: #1d2a35;
+    padding-top: 10px;
+}
+h1{
+    color: white;
+    font-size: 70px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 100px;
+
+}
+h2{
+    color: white;
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.main2{
+    height:630px ;
+    width: 1280px;
+    background-color: #04AA6D;
+    display: flex;
+    border-radius: 20px;
+}
+.subdiv{
+    height: 630px;
+    
+    background-color: rgb(172, 124, 218);
+    width: 430px;
+    border-top-left-radius: 10px  ;
+    border-bottom-left-radius:10px ;
+    /* display: flex; */
+}
+.subdiv1{
+    height: 630px;
+    background-color: blueviolet;
+    width: 430px;
+    
+    /* display: flex; */
+}
+
+.subdiv2{
+    height: 630px;
+    
+    background-color: rgb(94, 5, 177);
+    width: 430px;
+    border-top-right-radius: 10px  ;
+    border-bottom-right-radius:10px ;
+}
+.b3{
+    height: 500px;
+    width: 200px;
+    /* background-color: aqua; */
+    padding-top: 10px;
+    margin-top: 0px;
+}
+h3{
+    font-size: 100px;
+    font-weight: 500;
+    color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 0px;
+}
+h4{
+    color: white;
+    padding-top: 1000px;
+    font-size: 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 0px;
+}
+h4:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.text{
+    color: white;
+    padding-top: -100px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    top: -100px;
+}
+.footer{
+    background-color: #04AA6D;
+    height: 885px;
+    background-image: url(images/background_in_space.webp);
+    background-repeat: no-repeat;
+    background-size: 1700px;
+    /*  */
+}
+.space{
+    
+    position: relative;
+    left: 905px;
+    top:355px ;
+}
+.astronet{
+    position: relative;
+    height: 500px;
+    top: -504px;
+    left: 1120px;
+    margin: 0p;
+}
+.w33{
+    /* background-color: #1d2a35; */
+    height: 60px;
+}
+.table{
+    width: 1000px;
+    position: relative;
+    top: -460px;
+    left: 160px;
+    font-size: medium;
+    color:rgb(220, 227, 28) ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+margin-bottom: 0px;
+}
+table{
+    width: 1500px;
+    position: relative;
+    font-size: 14px;
+    color: #e0e1e7;
+    margin: 0px;
+    padding-left: 100px;
+    position: relative;
+    top: -400px;
+    
+}
+.last{
+    position: relative;
+    top: -350px;
+    left: 0px;
+    padding-left: 100px;
+}
